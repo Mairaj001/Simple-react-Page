@@ -13,6 +13,7 @@ import Github from './Github/Github.jsx'
 import SignIn from './components/sigin/signin.jsx'
 import SignUp from './components/signUp/SignUp.jsx'
 import { Princing } from './components/Pricing.jsx'
+import { ProductThree } from './components/products/product.jsx'
 // import Github from './Github/Github.jsx'
 
 
@@ -23,8 +24,8 @@ const route= createBrowserRouter(createRoutesFromElements(
      <Route path='about' element={<About/>}/>
      <Route path='contact' element={<ContactUs/>}/>
      <Route path='signin' element={<SignIn/>}/>
-     
-     
+    
+     <Route path='products' element={<ProductThree/>}/>
      <Route path='signUp' element={<SignUp/>}/>
      <Route path='user/:userid' element={<User />} />
      <Route path='github' element={<Github/>}/>
